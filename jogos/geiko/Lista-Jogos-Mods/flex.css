@@ -1,0 +1,29 @@
+.cabecalho h1{
+    margin: 30px;
+}
+.lista{
+     font-size: large;
+}
+.lista a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.lista a:hover{
+    text-decoration: underline;
+    color: rgba(245, 245, 245, 0.253);
+}
+.lista h2{
+   margin: 0px;
+}
+.lista li{
+    margin: 10px;
+}
+.ch,.en,.mu,.my,.nf,.nfc,.nf3,.nt05,.nt10,.nt20{
+    border-radius: 10px;
+    background-color: rgba(34, 24, 5, 0.562);
+    margin: 30px;
+    padding: 20px;
+    border-style: double;
+        border-color: gray;
+}

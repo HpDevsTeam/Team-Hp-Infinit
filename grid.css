@@ -1,0 +1,40 @@
+@import url(flex.css);
+@import url(img.css);
+@import url(format.css);
+.grid{
+    display: grid;
+    grid-template-areas: "header";
+}
+.grid2{
+    display: grid;
+    grid-template-areas: "menu main main aside";
+}
+.grid3{
+    display: grid;
+    grid-template-areas: "footer";
+}
+.item{
+    grid-area: header;
+    background-color: black;
+    
+}
+.item2{
+    grid-area: main;
+    background-color: black;
+    padding: 20px;
+}
+.item3{
+    grid-area: footer;
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 20px;
+}
+.item4{
+    grid-area: aside;
+    background-color: black;
+    padding: 20px;
+}
+.item5{
+grid-area: menu;
+    background-color: black;
+    padding: 20px;
+}

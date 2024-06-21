@@ -1,0 +1,44 @@
+.logo{
+    display: flex;
+    align-items: center;
+}
+.cabecalho{
+    margin: auto;
+    color: whitesmoke;
+}
+.menu-flex{
+   text-align: center;
+   margin: 60px auto;
+}
+.menu-flex a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu-flex a:hover{
+  color: rgba(255, 255, 255, 0.363);
+}
+.menu-flex li{
+    padding: 5px 0px;
+    list-style: none;
+}
+.aside{
+    color: whitesmoke;
+}
+.banner{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
+.copy{
+    padding: 20px;
+    color: whitesmoke;
+}
+.redes-sociais h2{
+    padding: 20px;
+    color: whitesmoke;
+}
+.redes-sociais img{
+    padding: 10px;
+}

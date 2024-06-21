@@ -1,0 +1,41 @@
+.logo{
+    padding: 60px;
+    font-size: 13px;
+}
+.logo h1,h2{
+    margin: 2px;
+    color: whitesmoke;
+}
+.op{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 10px purple;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.text{
+    width: 200px;
+    margin: auto;
+}
+.text h2{
+    color: black;
+}
+.text a{
+    color: black;
+    transition: 0.5s;
+}
+.text a:hover{
+    color: rgba(0, 0, 0, 0.199);
+}
+.lista-jogos{
+    margin: 20px;
+}
+.copy {
+    color: whitesmoke;
+    text-align: center;
+    margin: 50px;
+}

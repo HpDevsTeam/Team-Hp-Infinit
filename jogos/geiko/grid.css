@@ -1,0 +1,21 @@
+@import url(flex.css);
+@import url(format.css);
+@import url(img.css);
+
+.grid1{
+    display: grid;
+    grid-template-areas: "header";
+}
+.header{
+    grid-area: header;
+    text-align: center;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-areas: "main";
+}
+
+.main {
+    grid-area: main;
+}
